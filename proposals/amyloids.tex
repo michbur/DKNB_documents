@@ -1,0 +1,98 @@
+\documentclass{article}
+\usepackage[OT4]{fontenc}
+\usepackage[polish]{babel}
+%\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{apacite}
+\usepackage{natbib}
+\usepackage{caption}
+
+\author{Michał Burdukiewicz, Przemysław Gagat}
+\title{Predykcja białek amyloidogennych \linebreak \vskip{} \large{Projekt badawczy Doktoranckiego Koła Naukowego Bioinformatyki}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Założenia projektu badawczego}
+
+Amyloidy to zróżnicowana grupa białek mogących tworzyć zazwyczaj cytotoksyczne kompleksy~\citep{fandrich_oligomeric_2012}. Agregaty amyloid są przyczyną różnych zaburzeń (m.in. choroby Alzheimera, Creutzfelda-Jacoba). Ustalono, że mimo podobieństw w procesie agregacji, białka amyloidogenne są zróżnicowane pod względem długości i składu aminokwasowego. Wszystkie jednak zawierają tzw. \textit{hot-spots}, krótkie sekwencje aminokwasów, które pełnią kluczową rolę w procesie formowania kompleksów amyloid~\citep{breydo_structural_2015}.
+
+Celem badań jest utworzenie probabilistyczngo modelu \textit{hot-spots}. Opracowany model zostanie zweryfikowany poprzez analizę znanych sekwencji amyloidogennych.
+
+
+\section{Metody}
+
+Głównym narzędziem wykorzystywanym w projekcie badawczym jest pakiet \textit{biogram} przeznaczony do analizy n-gramowej. n-gramy (k-mery, k-tuple) to wektory o długości $n$ zawierające znaki z sekwencji wejściowych. Pierwotnie analiza n-gramów rozwijana była na potrzeby analizy języka naturalnego, ale ma również zastosowania w genomice~\citep{fang2011}, transkryptomice~\citep{wang2014} i proteomice~\citep{guo2014}. 
+
+W przewidzianych analizach wykorzystane zostaną zarówno ciągłe jak i nieciągłe n-gramy. Uzyskane zliczenia n-gramów będą przefiltrowane w celu odrzucenia mniej informatywnych n-gramów, a następnie wykorzystane do uczenia lasu losowego~\citep{liaw_classification_2002}.
+
+Zgodnie
+
+\section{Stan badań}
+
+Wstępna n-gramowa analiza sekwencji białek uzyskanych z bazy AmyLoad\cite{wozniak_amyload:_2015} została przeprowadzona używając pakietu \textit{biogram}~\citep{burdukiewicz}. Stworzony model nazwany roboczo AmyloGram został porównany z najlepszymi istniejącymi predyktorami amoyloidogenności.
+
+\begin{table}[!htbp]
+\centering
+\caption*{Porównanie programów przewidujących amyloidogenność.} 
+\begin{tabular}{c|c|c|c}
+  \hline
+Nazwa programu & AUC & Czułość & Specyficzność \\ 
+  \hline
+AmyloGram & 0.8426 & 0.8054 & 0.7222 \\ 
+PASTA2~\citep{walsh_pasta_2014} & 0.7920 & 0.7248 & 0.8593 \\ 
+  FoldAmyloid~\citep{Garbuzynskiy2010} & 0.7351 & 0.7517 & 0.7185 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+AUC (Area under Curve) to jedna z najpopularniejszych miar jakości klasyfikatora i zawiera się między 1 (idealna dobra klasyfikacja) i 0 (idealnie zła klasyfikacja). Wartość 0.5 jest typowa dla całkowicie losowej predykcji. AmyloGram uzyskując $\textrm{AUC} = 0.84$ pod względem jakości predykcji przewyższa istniejące programy przewidujące amyloidy i dobrze oddaje rzeczywistą strukturę regionu \textit{hot-spots}.
+
+
+
+\section{Planowane wydatki}
+
+Łączny koszt projektu badawczego to 16 560 zł.
+
+\subsection{Ulepszenia istniejącej infrastruktury}
+
+Realizacja zaplanowanych zadań badawczych wymaga modyfikacji dostępnego wyposażenia: zakupu nowych dysków twardych oraz baterii do UPS.
+
+\begin{table}[!htbp]
+\centering
+\caption*{Kosztorys ulepszeń istniejącej infrastruktury.}
+\begin{tabular}{ccccc}
+\cline{1-4}
+\multicolumn{1}{|c|}{Nazwa}                     & \multicolumn{1}{c|}{Cena (szt.)} & \multicolumn{1}{c|}{Liczba} & \multicolumn{1}{c|}{Łączna cena} &  \\ \cline{1-4}
+\multicolumn{1}{|c|}{Dysk twardy WD Red Sata 3} & \multicolumn{1}{c|}{1150 zł}     & \multicolumn{1}{c|}{6}      & \multicolumn{1}{c|}{6900 zł}     &  \\ \cline{1-4}
+\multicolumn{1}{|c|}{Bateria APC RBC7}          & \multicolumn{1}{c|}{830 zł}      & \multicolumn{1}{c|}{2}      & \multicolumn{1}{c|}{1660 zł}     &  \\ \cline{1-4}
+                                                &                                  & Łącznie:                    & 8560 zł                          & 
+\end{tabular}
+\end{table}
+
+\subsection{Wyjazdy zagraniczne}
+
+Wyniki badań zostaną zaprezentowane podczas 15th European Conference on Computational Biology (3-7 września 2016, Haga, Holandia). Dofinansowanie umożliwi większej liczbie członków Koła aktywny udział w konferencji i zaprezentowanie nie tylko wyników realizacji zadań badawczych postawionych w tym wniosku, ale również postępów w pracach doktorskich.
+
+\begin{table}[!htbp]
+\centering
+\caption*{Kosztorys wyjazdów zagranicznych.}
+\begin{tabular}{lllll}
+\cline{1-4}
+\multicolumn{1}{|c|}{Nazwa}                     & \multicolumn{1}{c|}{Cena (szt.)} & \multicolumn{1}{c|}{Liczba} & \multicolumn{1}{c|}{Łączna cena} &  \\ \cline{1-4}
+\multicolumn{1}{|c|}{Dofinansowanie wyjazdu} & \multicolumn{1}{c|}{2000 zł}     & \multicolumn{1}{c|}{4}      & \multicolumn{1}{c|}{8000 zł}     &  \\ \cline{1-4}
+                                                &                                  & Łącznie:                    & 8000 zł                          & 
+\end{tabular}
+\end{table}
+
+\section{Współpraca}
+
+Projekt jest realizowany przy współpracy z profesor Małgorzatą Kotulską (Politechnika Wrocławska), kuratorem bazy AmyLoad i ekspertem w zakresie analizy sekwencji amyloidogennych, oraz Piotrem Sobczykiem (Politechnika Wrocławska), współtwórcą pakietu \textit{biogram}.
+
+
+\bibliographystyle{apacite} 
+\bibliography{amyloids}
+
+\end{document}
