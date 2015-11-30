@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {polish}
+\beamer@sectionintoc {1}{Wprowadzenie}{2}{0}{1}
+\beamer@sectionintoc {2}{Materia\IeC {\l }y i metody}{18}{0}{2}
