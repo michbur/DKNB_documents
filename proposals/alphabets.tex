@@ -9,7 +9,9 @@
 \usepackage{booktabs}
 \usepackage{colortbl, xcolor}
 \usepackage{tabularx}
+\usepackage{graphicx}
 \usepackage{multirow}
+\usepackage{epstopdf}
 
 \author{Michał Burdukiewicz, Przemysław Gagat}
 \title{Tworzenie skróconych alfabetów aminokwasowych dla białek 
@@ -19,6 +21,10 @@ amyloidogennych\linebreak \vskip{}
 
 \AtBeginDocument{%
   \renewcommand{\tablename}{Tab.}
+} 
+
+\AtBeginDocument{%
+  \renewcommand{\figurename}{Tab.}
 } 
 
 \begin{document}
@@ -76,6 +82,10 @@ Nawet przy założeniu, że optymalna wielkość skróconego alfabetu jest już 
 to liczba potencjalnych możliwości jest bardzo duża (np. wszystkich alfabetów 
 sześcioelementowych jest $4.306079 \times 10^{12}$).
 
+\section{Obecny stan badań}
+
+\subsection{Predykcja białek amyloidogennych}
+
 Jednym z poprzednich zadań badawczych naszego Koła było opracowanie algorytmu 
 przewidującego amyloidy, białka, których agregaty występują w różnych 
 zaburzeniach neurodegeneracyjnych (m.in. choroby Alzheimera, 
@@ -83,12 +93,13 @@ Creutzfelda-Jacoba). Podczas tworzenia predyktora amyloidogenności AmyloGram
 wygenerowaliśmy i przetestowaliśmy 18 535 unikalnych skróconych alfabetów o 
 długości od 3 do 6 (ok. $3.63\% \times 10^{-7} $ wszystkich możliwych skróconych 
 alfabetów o długości od 3 do 6). Spośród sprawdzonych alfabetów wybrano ten, 
-który gwarantował najlepszą predykcję. Zastosowanie skróconego alfabetu 
-istotnie podwyższyło skuteczność przewidywania amyloidogenności (Tab. 
-\ref{tab:alfabety}). Jednakże ze względu na szczupłość sprawdzonego zbioru 
-alfabetów, prawdopobnie istnieje skrócony alfabet, który pozwala na jeszcze 
-lepsze predykcje oraz precyzyjniejsze opisanie procesu agregacji amyloid.
+który gwarantował najlepszą predykcję. 
 
+Zastosowanie skróconego alfabetu istotnie podwyższyło skuteczność przewidywania 
+amyloidogenności (Tab. \ref{tab:alfabety}). Jednakże ze względu na szczupłość 
+sprawdzonego zbioru alfabetów, prawdopobnie istnieje skrócony alfabet, który 
+pozwala na jeszcze lepsze predykcje oraz precyzyjniejsze opisanie procesu 
+agregacji amyloid.
 
 \begin{table}[ht]
 \centering
@@ -115,13 +126,36 @@ Skrócony alfabet (zbiór uczący C) & 0.8728 & 0.5420
 \end{tabular}
 \end{table}
 
+\subsection{Predykcja peptydów sygnałowych u nietypowych organizmów}
+
+Zredukowane alfabety aminokwasowe zostały również wykorzystane w 
+naszym programie signalHsmm, który przewiduje występowanie peptydów sygnałowych 
+u Eukariontów. Zastosowanie skróconego alfabetu aminokwasowego pozwoliło 
+trafnie przewidywać peptydy sygnałowe również u nietypowych grup taksonomicznych 
+takich jak rodzaj \textit{Plasmodiidae} do którego zalicza się zarodziec 
+malarii. Nietypowy skład aminokwasowy takich peptydów sygnałowych utrudnia ich 
+rozpoznawanie przy użyciu innych programów, które wykorzystują pełny alfabet 
+aminokwasowy. Zapisanie sekwencji peptydów sygnałowych \textit{Plasmodiidae} 
+przy użyciu skróconego alfabetu aminokwasowego pozwala na identyfikację reguł 
+decyzyjnych, które łączą je z analogicznymi sekwencjami pochodzących od innych 
+eukariontów (Rys.~\ref{fig:PCA}). Nie jest to możliwe przy użyciu pełnego 
+alfabetu aminokwasowego.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{signalHsmm.eps}
+\caption{Wyniki PCA dla częstości aminokwasów w peptydach sygnałowych i 
+dojrzałych białkach \textit{Plasmodiidae} oraz innych eukariontów.}
+\label{fig:PCA}
+\end{figure}
+
+
 \section{Cel badań}
 
 Głównym zadaniem badawczym jest opracowanie nowej metody poszukiwania 
 skróconych alfabetów amyloidogennych. Nowe rozwiązania zostaną zastosowane do 
-problemu przewidywania sekwencji amyloidogennych i peptydów sygnałowych u 
-przedstawicieli medycznie istotnego rodzaju \textit{Plasmodiidae} do którego 
-zalicza się zarodziec malarii.
+problemu przewidywania białek amyloidogennych i nietypowych peptydów 
+sygnałowych.
 
 \section{Metody}
 
