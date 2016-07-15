@@ -1,0 +1,225 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Cannata%
+, Toppo%
+, Romualdi%
+\BCBL {}\ \BBA {} Valle%
+}{%
+Cannata%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+cannata_simplifying_2002}
+\APACinsertmetastar {%
+cannata_simplifying_2002}%
+\begin{APACrefauthors}%
+Cannata, N.%
+, Toppo, S.%
+, Romualdi, C.%
+\BCBL {}\ \BBA {} Valle, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{{\APACmonth{08}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simplifying amino acid alphabets by means of a branch
+  and bound algorithm and substitution matrices} {Simplifying amino acid
+  alphabets by means of a branch and bound algorithm and substitution
+  matrices}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bioinformatics (Oxford, England)}{18}{8}{1102--1108}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Longo%
+, Lee%
+\BCBL {}\ \BBA {} Blaber%
+}{%
+Longo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+longo_simplified_2013}
+\APACinsertmetastar {%
+longo_simplified_2013}%
+\begin{APACrefauthors}%
+Longo, L\BPBI M.%
+, Lee, J.%
+\BCBL {}\ \BBA {} Blaber, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{{\APACmonth{02}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simplified protein design biased for prebiotic amino
+  acids yields a foldable, halophilic protein} {Simplified protein design
+  biased for prebiotic amino acids yields a foldable, halophilic
+  protein}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of Sciences of the
+  United States of America}{110}{6}{2135--2139}.
+\newblock
+\begin{APACrefDOI} \doi{10.1073/pnas.1219530110} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Melo%
+\ \BBA {} Marti-Renom%
+}{%
+Melo%
+\ \BBA {} Marti-Renom%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+melo_accuracy_2006}
+\APACinsertmetastar {%
+melo_accuracy_2006}%
+\begin{APACrefauthors}%
+Melo, F.%
+\BCBT {}\ \BBA {} Marti-Renom, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Accuracy of sequence alignment and fold assessment using
+  reduced amino acid alphabets} {Accuracy of sequence alignment and fold
+  assessment using reduced amino acid alphabets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proteins}{63}{4}{986--995}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/prot.20881} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Murphy%
+, Wallqvist%
+\BCBL {}\ \BBA {} Levy%
+}{%
+Murphy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+murphy_simplified_2000}
+\APACinsertmetastar {%
+murphy_simplified_2000}%
+\begin{APACrefauthors}%
+Murphy, L\BPBI R.%
+, Wallqvist, A.%
+\BCBL {}\ \BBA {} Levy, R\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simplified amino acid alphabets for protein fold
+  recognition and implications for folding} {Simplified amino acid alphabets
+  for protein fold recognition and implications for folding}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Protein Engineering}{13}{3}{149--152}.
+\newblock
+\begin{APACrefURL}
+  [{2016-01-24}]\url{http://peds.oxfordjournals.org/content/13/3/149}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1093/protein/13.3.149} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Solis%
+}{%
+Solis%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+solis_amino_2015}
+\APACinsertmetastar {%
+solis_amino_2015}%
+\begin{APACrefauthors}%
+Solis, A\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{{\APACmonth{12}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Amino acid alphabet reduction preserves fold information
+  contained in contact interactions in proteins} {Amino acid alphabet reduction
+  preserves fold information contained in contact interactions in
+  proteins}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proteins: Structure, Function, and
+  Bioinformatics}{83}{12}{2198--2216}.
+\newblock
+\begin{APACrefURL}
+  [{2016-07-14}]\url{http://onlinelibrary.wiley.com/doi/10.1002/prot.24936/abstract}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1002/prot.24936} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stephenson%
+\ \BBA {} Freeland%
+}{%
+Stephenson%
+\ \BBA {} Freeland%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+stephenson_unearthing_2013}
+\APACinsertmetastar {%
+stephenson_unearthing_2013}%
+\begin{APACrefauthors}%
+Stephenson, J\BPBI D.%
+\BCBT {}\ \BBA {} Freeland, S\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{{\APACmonth{10}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Unearthing the root of amino acid similarity}
+  {Unearthing the root of amino acid similarity}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Molecular Evolution}{77}{4}{159--169}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s00239-013-9565-0} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Walsh%
+, Seno%
+, Tosatto%
+\BCBL {}\ \BBA {} Trovato%
+}{%
+Walsh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+walsh_pasta_2014}
+\APACinsertmetastar {%
+walsh_pasta_2014}%
+\begin{APACrefauthors}%
+Walsh, I.%
+, Seno, F.%
+, Tosatto, S\BPBI C\BPBI E.%
+\BCBL {}\ \BBA {} Trovato, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{PASTA} 2.0: an improved server for protein aggregation
+  prediction} {{PASTA} 2.0: an improved server for protein aggregation
+  prediction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nucleic Acids Research}{42}{W1}{W301--W307}.
+\newblock
+\begin{APACrefURL}
+  [{2015-07-24}]\url{http://nar.oxfordjournals.org/content/42/W1/W301}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1093/nar/gku399} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
