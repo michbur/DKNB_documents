@@ -42,7 +42,9 @@ skróconego alfabetu aminokwasego.
 
 Skrócony alfabet aminokwasowy to alfabet w którym aminokwasy na podstawie 
 określonych podobieństw są przypisane do grup (Tab.~\ref{tab:przykladowy}). 
-Zazwyczaj w celu stworzenia takiego alfabetu wykorzystuje się macierze 
+W sekwencji białkowej zapisanej przy użyciu takiego alfabetu konkretne reszty 
+aminokwasowe zastępuje się numerem grupy do której zostały przypisane.
+Zazwyczaj w celu stworzenia skróconego alfabetu wykorzystuje się macierze 
 podstawień~\citep{cannata_simplifying_2002} lub właściwości fizykochemiczne 
 aminokwasów~\citep{stephenson_unearthing_2013}. Istnieją również
 kryteria pozwalające ustalić optymalną wielkość alfabetu (liczbę grup, do 
@@ -71,10 +73,10 @@ Numer grupy & Aminokwasy \\
 
 Nasze wstępne wyniki sugerują, że w przypadku niektórych problemów 
 przewidywania właściwości białek, zastosowanie skróconego alfabetu 
-aminokwasowego znacząco ulepszyć precyzję predykcji. Jednakże taki alfabet musi 
-zostać wybrany spośród wielu potencjalnych skróconych alfabetów. 
-Liczba wszystkich możliwych skróconych alfabetów aminokwasowych $n_s$ 
-zawierających $k$ grup jest wyrażona poprzez: 
+aminokwasowego może znacząco ulepszyć precyzję predykcji. Jednakże taki alfabet  
+musi zostać wybrany spośród wielu potencjalnych skróconych alfabetów. Liczba 
+wszystkich możliwych skróconych alfabetów aminokwasowych $n_s$ zawierających $k$ 
+grup jest wyrażona poprzez: 
 
 $$ n_s = \frac{1}{k!} \sum^{k}_{j = 0} (-1)^{k-j}  {k \choose j} j^{20} $$
 
@@ -91,15 +93,15 @@ przewidującego amyloidy, białka, których agregaty występują w różnych
 zaburzeniach neurodegeneracyjnych (m.in. choroby Alzheimera, 
 Creutzfelda-Jacoba). Podczas tworzenia predyktora amyloidogenności AmyloGram 
 wygenerowaliśmy i przetestowaliśmy 18 535 unikalnych skróconych alfabetów o 
-długości od 3 do 6 (ok. $3.63\% \times 10^{-7} $ wszystkich możliwych skróconych 
-alfabetów o długości od 3 do 6). Spośród sprawdzonych alfabetów wybrano ten, 
-który gwarantował najlepszą predykcję. 
+długości od 3 do 6 (ok. $3.63 \times 10^{-7} \% $ wszystkich możliwych 
+skróconych alfabetów o długości od 3 do 6). Spośród sprawdzonych alfabetów 
+wybrano ten, który gwarantował najlepszą predykcję. 
 
 Zastosowanie skróconego alfabetu istotnie podwyższyło skuteczność przewidywania 
 amyloidogenności (Tab. \ref{tab:alfabety}). Jednakże ze względu na szczupłość 
 sprawdzonego zbioru alfabetów, prawdopobnie istnieje skrócony alfabet, który 
 pozwala na jeszcze lepsze predykcje oraz precyzyjniejsze opisanie procesu 
-agregacji amyloid.
+agregacji białek amyloidowych.
 
 \begin{table}[ht]
 \centering
@@ -137,7 +139,7 @@ malarii. Nietypowy skład aminokwasowy takich peptydów sygnałowych utrudnia ic
 rozpoznawanie przy użyciu innych programów, które wykorzystują pełny alfabet 
 aminokwasowy. Zapisanie sekwencji peptydów sygnałowych \textit{Plasmodiidae} 
 przy użyciu skróconego alfabetu aminokwasowego pozwala na identyfikację reguł 
-decyzyjnych, które łączą je z analogicznymi sekwencjami pochodzących od innych 
+decyzyjnych, które łączą je z analogicznymi sekwencjami pochodzącymi od innych 
 eukariontów (Rys.~\ref{fig:PCA}). Nie jest to możliwe przy użyciu pełnego 
 alfabetu aminokwasowego.
 
@@ -191,7 +193,7 @@ podczas projektu badawczego.
 Realizacja projektu wymaga stworzenia nowego klastra obliczeniowego na potrzeby 
 przewidzianych zadań badawczych (Tab.~\ref{tab:klaster}). Po zakończeniu badań 
 klaster pozostanie cennym narzędziem dla studentów, którzy będą go mogli 
-wykorzystac do obliczeń niezbędnych do napisania prac dyplomowych.
+wykorzystać do obliczeń niezbędnych do napisania prac dyplomowych.
 
 \begin{table}[]
 \centering
