@@ -1,32 +1,32 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.17)  21 SEP 2015 12:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.13)  30 AUG 2016 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **certificate.tex
 (./certificate.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/letter.cls
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 7 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/letter.cls
 Document Class: letter 1999/04/29 v1.2z Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \longindentation=\dimen102
 \indentedwidth=\dimen103
 \labelcount=\count79
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/polski/polski.sty
+(/usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
 Package: polski 2008/02/24 v1.3.3 Polish language package
 
 Document language package `polski' v1.3.3 <2008/02/24>
    Switching to Polish text encoding and Polish maths fonts.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot4enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot4enc.def
 File: ot4enc.def 2005/09/27 v1.99g Standard LaTeX file
 )
 LaTeX Font Info:    Try loading font information for OT4+cmr on input line 346.
 
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/polski/ot4cmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -61,19 +61,19 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 346.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -223,7 +223,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -254,7 +254,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -280,10 +280,10 @@ Now handling font encoding OT4 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot4enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot4enc.def
 File: ot4enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT4 on input line 43.
 ))
@@ -294,63 +294,38 @@ LaTeX Warning: Unused global option(s):
 (./certificate.aux)
 \openout1 = `certificate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Try loading font information for OML+plm on input line 17.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/polski/omlplm.fd
-File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 17.
-
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/polski/omsplsy.fd
-File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 17.
-
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/polski/omxplex.fd
-File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 17.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 17.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./cert
-ificate.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./certificate.aux) ) 
 Here is how much of TeX's memory you used:
- 795 strings out of 493108
- 8311 string characters out of 6134853
- 57107 words of memory out of 5000000
- 4293 multiletter control sequences out of 15000+600000
- 8123 words of font info for 26 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 25i,6n,24p,514b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{
-/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/pl/plr12.pfb>
-Output written on certificate.pdf (1 page, 15151 bytes).
+ 754 strings out of 494920
+ 7311 string characters out of 6179039
+ 52560 words of memory out of 5000000
+ 4026 multiletter control sequences out of 15000+600000
+ 4929 words of font info for 17 fonts, out of 8000000 for 9000
+ 79 hyphenation exceptions out of 8191
+ 25i,6n,24p,384b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc
+}</usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr12.pfb>
+Output written on certificate.pdf (1 page, 13568 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+ 13 PDF objects out of 1000 (max. 8388607)
+ 8 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
